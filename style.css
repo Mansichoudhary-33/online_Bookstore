@@ -1,0 +1,152 @@
+* {
+    margin:10;
+    padding:15;
+    box-sizing:border-box;
+
+}
+body{
+    font-family: Arial,sans-serif;
+    line-height: 1.6;
+    background-color:hwb(208 13% 7%);
+    color:#333;
+}
+.header h1{
+    margin:10px;
+    color:aqua;
+}
+nav ul{
+     list-style:none;
+     display:flex;
+     justify-content:center;
+     padding:10px 0;
+
+}
+nav ul li{
+    margin:0 15px;
+}
+nav ul li a{
+    color:red;
+    text-decoration:none;
+}
+nav ul li a:hover{
+                 text-decoration:underline;
+}
+.main-container{
+             display:flex;
+             justify-content:space-between;
+             margin:20px;
+}
+.left-frame,.right-frame,.center-frame{
+    width:30%;
+    padding:15px;
+    background:#fff;
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+
+}
+.left-frame ul{
+           list-style: none;
+}
+.left-frame li{
+    margin:10px0;
+}
+.right-frame{
+    background:#f9f9f9;
+
+}
+footer{
+    text-align:center;
+    padding:10px;
+    background:#333;
+    color:#fff;
+    position:relative;
+    width:80%;
+    bottom:0;
+}
+/*style for catalogue table*/
+.catalogue-table table{
+    width:100%;
+    border-collapse:collapse;
+}
+.catalogue-table th, .catalogue-table td{
+          padding: 10px;
+          border: 1px solid hsla(142, 88%, 53%, 0.9);
+          text-align: left;
+}
+.catalogue-table th{
+    background: darkmagenta;
+}
+.catalogue-table tr:nth-child(even){
+    background:hsl(267, 91%, 50%);
+}
+.book-image{
+    width:100px;
+    height:100px;
+}
+
+/*login page*/
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: hsl(190, 95%, 34%);
+    color: rgb(196, 23, 23);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  @media screen and (max-width: 200px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+    
